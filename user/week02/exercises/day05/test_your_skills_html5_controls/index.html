@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+  </head>
+  <body>
+    <input type="text" id="comment" name="comment" value="Text here" />
+    <input type="password" id="pwd" name="pwd" />
+    <input type="hidden" id="timestamp" name="timestamp" value="1286705410" />
+    <input
+      type="checkbox"
+      id="questionOne"
+      name="subscribe"
+      value="yes"
+      checked
+    />
+    <fieldset>
+      <legend>Choose all the vegetables you like to eat</legend>
+      <ul>
+        <li>
+          <label for="Potatoes">Potatoes</label>
+          <input
+            type="checkbox"
+            id="potatoes"
+            name="vegetable"
+            value="potatoes"
+            checked
+          />
+        </li>
+        <li>
+          <label for="peas">Tomato</label>
+          <input type="checkbox" id="tomato" name="vegetable" value="tomato" />
+        </li>
+        <li>
+          <label for="cabbage">Cabbage</label>
+          <input
+            type="checkbox"
+            id="cabbage"
+            name="vegetable"
+            value="cabbage"
+          />
+        </li>
+      </ul>
+    </fieldset>
+    <input type="radio" id="soup" name="meal" value="soup" checked />
+    <fieldset>
+      <legend>What is your favorite meal?</legend>
+      <ul>
+        <li>
+          <label for="soup">Pasta</label>
+          <input type="radio" id="pasta" name="meal" value="pasta" checked />
+        </li>
+        <li>
+          <label for="curry">Curry</label>
+          <input type="radio" id="curry" name="meal" value="curry" />
+        </li>
+        <li>
+          <label for="pizza">Pizza</label>
+          <input type="radio" id="pizza" name="meal" value="pizza" />
+        </li>
+      </ul>
+    </fieldset>
+    <input type="email" id="email" name="email" multiple />
+    <input type="search" id="search" name="search" value="Search" />
+    <label for="price">Choose a price: </label>
+    <input
+      type="range"
+      name="price"
+      id="price"
+      min="50"
+      max="500"
+      step="10"
+      value="2500"
+    />
+    <output class="price-output" for="price"></output>
+    <select id="simple" name="simple">
+      <option>Banana</option>
+      <option selected>Cherry</option>
+      <option>Lemon</option>
+    </select>
+  </body>
+</html>
